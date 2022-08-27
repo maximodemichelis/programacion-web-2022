@@ -1,0 +1,25 @@
+/*llamara a una clase*/
+
+.titular{
+    color:grey;
+    font-size: 20px;
+}
+
+/*llamar a la etiqueta */
+    body
+    {background-color: violet;}
+
+/* llamar a un id */
+
+#titular2{
+    color: yellow;
+}
+
+/****    creacion de clases  *****/
+
+.borde{border: 1px solid yellow;}
+.rojo{color: red;}
+
+
+
+
