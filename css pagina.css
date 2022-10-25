@@ -1,8 +1,29 @@
-.titulo{ color: blue;
-    position: sticky;top: 10px;}
+html{scroll-behavior: smooth;}
 
-body{background-color: black;}
+*{
+   box-sizing: border-box; 
+}
 
-.Textopagina{color: antiquewhite;
-    size: 30px;}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
 
+h1{font-size: 4em;}
+p{font-size: 1em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 3px slateblue;
+    box-shadow: 2px 2px 10px violet;
+    color: black;
+    background-color: palevioletred;
+
+}
+
+.container{
+    
+}
