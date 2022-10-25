@@ -4,12 +4,17 @@ html{scroll-behavior: smooth;}
    box-sizing: border-box; 
 }
 
+header{
+    position: sticky;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    font-weight: bold;
 }
 
-h1{font-size: 4em;}
+h1{font-size: 3.2em;}
 p{font-size: 1em;}
 
 button{
@@ -25,5 +30,103 @@ button{
 }
 
 .container{
-    
+    max-width: 1500px;
+    margin: auto;
 }
+
+.titulos{
+    color: firebrick;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{background-color: darkgrey;}
+
+header .titulos{
+    margin: 0;
+    padding: 30px 30px;
+    font-weight: bolder;
+    color: red;
+    font-size: 4em;
+}
+
+
+header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header.a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#intro{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    background-image: linear-gradient(0deg,
+        black,
+        black
+        )
+        ,url("m3 e92gt.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+#intro p{
+    font-weight: bold;
+    color: darkgray;
+}
+
+#repro{
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+}
+
+#repro .marcas{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px0px;
+    margin: auto;
+}
+
+.marcas:first-child{
+    background-image: linear-gradient(
+        black
+        black
+        black
+        )
+        ,url(vwlogo.jpg);
+}
+
+.marcas:nth-child(2){
+    background-image: linear-gradient(
+        black
+        black
+        black
+        )
+        ,url(bmwlogo.png);
+}
+
+.marcas:nth-child(3){
+    background-image: linear-gradient(
+        black
+        black
+        black
+        )
+        ,url(mercedezlogo.png);   
+}
+
